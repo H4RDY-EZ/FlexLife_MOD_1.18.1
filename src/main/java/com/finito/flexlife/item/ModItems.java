@@ -1,6 +1,6 @@
-package com.FINITO.flexlife.item;
+package com.finito.flexlife.item;
 
-import com.FINITO.flexlife.FlexLife;
+import com.finito.flexlife.FlexLife;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

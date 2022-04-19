@@ -31,7 +31,7 @@ logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
 credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="FINITO" #optional
+authors="finito" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 This mod is all about smoking ciggarettes. My dear friends(Cahid and Islam) encouraged me to

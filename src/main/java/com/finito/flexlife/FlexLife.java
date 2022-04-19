@@ -1,6 +1,6 @@
-package com.FINITO.flexlife;
+package com.finito.flexlife;
 
-import com.FINITO.flexlife.item.ModItems;
+import com.finito.flexlife.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
