@@ -1,4 +1,17 @@
 {
   "item.flexlife.sobranie": "Sobranie",
-  "item.flexlife.a_pack_of_sobranie": "A pack of Sobranie"
+  "item.flexlife.a_pack_of_sobranie": "A pack of Sobranie",
+  "item.flexlife.tobacco": "Tobacco",
+  "item.flexlife.lighter": "Lighter",
+  "item.flexlife.papyrus": "Papyrus",
+  "item.flexlife.winston": "Winston XS",
+  "item.flexlife.capsule": "Capsule",
+  "item.flexlife.ld": "LD",
+  "item.flexlife.marlboro": "Marlboro",
+  "item.flexlife.prima": "Prima",
+  "item.flexlife.gas_spray": "Gas Spray",
+
+  "block.flexlife.sobranie_block": "Block of Sobranie",
+  "block.flexlife.winston_block": "Block of Winston",
+  "block.flexlife.ld_block": "Block of LD"
 }
