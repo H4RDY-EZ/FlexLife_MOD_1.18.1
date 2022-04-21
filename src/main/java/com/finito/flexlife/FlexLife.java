@@ -1,5 +1,6 @@
 package com.finito.flexlife;
 
+import com.finito.flexlife.block.ModBlocks;
 import com.finito.flexlife.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,6 +33,7 @@ public class FlexLife {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
