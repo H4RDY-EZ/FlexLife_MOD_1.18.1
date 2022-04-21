@@ -1,6 +1,7 @@
 package com.finito.flexlife.block;
 
 import com.finito.flexlife.FlexLife;
+import com.finito.flexlife.item.ModCreativeModeTab;
 import com.finito.flexlife.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -41,15 +42,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SOBRANIE_BLOCK = registerBlock("sobranie_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.FLEX_TAB_BLOCKS);
 
     public static final RegistryObject<Block> WINSTON_BLOCK = registerBlock("winston_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.FLEX_TAB_BLOCKS);
 
     public static final RegistryObject<Block> LD_BLOCK = registerBlock("ld_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.FLEX_TAB_BLOCKS);
 
 
     public static void register(IEventBus eventBus)

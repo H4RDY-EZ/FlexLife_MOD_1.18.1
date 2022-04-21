@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " P ",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "flexlife:tobacco",
+    "count": 4
+  }
+}

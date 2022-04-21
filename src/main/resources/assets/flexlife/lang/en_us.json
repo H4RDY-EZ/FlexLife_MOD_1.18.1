@@ -13,5 +13,8 @@
 
   "block.flexlife.sobranie_block": "Block of Sobranie",
   "block.flexlife.winston_block": "Block of Winston",
-  "block.flexlife.ld_block": "Block of LD"
+  "block.flexlife.ld_block": "Block of LD",
+
+  "itemGroup.flextabitems": "FlexLife Items",
+  "itemGroup.flextabblocks": "FlexLife Blocks"
 }
