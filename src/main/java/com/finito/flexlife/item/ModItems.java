@@ -18,12 +18,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> SOBRANIE_PACK = ITEMS.register("a_pack_of_sobranie",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
-    // NEW ITEMS
-    // NEW ITEMS
-    // NEW ITEMS
-    // NEW ITEMS
-    // NEW ITEMS
-
     public static final RegistryObject<Item> TOBACCO = ITEMS.register("tobacco",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
@@ -49,6 +43,13 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
     public static final RegistryObject<Item> GAS_SPRAY = ITEMS.register("gas_spray",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    // NEW ITEMS
+    // NEW ITEMS
+    // NEW ITEMS
+
+    public static final RegistryObject<Item> KULQABI = ITEMS.register("kulqabi",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
 
