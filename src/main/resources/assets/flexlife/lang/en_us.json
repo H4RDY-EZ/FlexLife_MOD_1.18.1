@@ -11,11 +11,23 @@
   "item.flexlife.prima": "Prima",
   "item.flexlife.gas_spray": "Gas Spray",
   "item.flexlife.kulqabi": "Kul Qabi",
+  "item.flexlife.baki": "Baki",
+  "item.flexlife.redbizon": "Red Bizon",
+  "item.flexlife.bluebizon": "Blue Bizon",
+  "item.flexlife.twoazndoner": "AZii Doner",
+  "item.flexlife.threeazndoner": "Pechat Doner",
+  "item.flexlife.fourazndoner": "Dostoynu Doner",
+  "item.flexlife.shaurmanum1": "Shaurma No 1",
+  "item.flexlife.avtoshdoner": "Avtosh Doner",
+  "item.flexlife.kovserdoner": "Kovser Doner (28 May)",
+  "item.flexlife.basdirma": "Kovser Basdirma (28 May)",
+
 
   "block.flexlife.sobranie_block": "Block of Sobranie",
   "block.flexlife.winston_block": "Block of Winston",
   "block.flexlife.ld_block": "Block of LD",
 
   "itemGroup.flextabitems": "FlexLife Items",
-  "itemGroup.flextabblocks": "FlexLife Blocks"
+  "itemGroup.flextabblocks": "FlexLife Blocks",
+  "itemGroup.flextabfoods": "FlexLife Food"
 }
