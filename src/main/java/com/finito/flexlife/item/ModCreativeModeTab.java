@@ -24,4 +24,11 @@ public class ModCreativeModeTab {
         }
 
     };
+
+    public static final CreativeModeTab FLEX_TAB_FOODS = new CreativeModeTab("flextabfoods")
+    {
+        @Override
+        public ItemStack makeIcon() { return new ItemStack(ModItems.AVTOSHDONER.get());}
+    };
+
 }

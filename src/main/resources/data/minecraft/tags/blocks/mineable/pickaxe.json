@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "flexlife:ld_block",
+    "flexlife:winston_block",
+    "flexlife:sobranie_block"
+
+  ]
+}
