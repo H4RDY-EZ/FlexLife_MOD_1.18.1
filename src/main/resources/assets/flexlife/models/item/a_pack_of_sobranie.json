@@ -1,6 +1,38 @@
 {
-  "parent": "item/generated",
   "textures": {
-    "layer0": "flexlife:item/a_pack_of_sobranie"
+    "0": "flexlife:item/a_pack_of_sobranie",
+    "particle": "flexlife:item/a_pack_of_sobranie"
+  },
+  "elements": [
+    {
+      "from": [5, 0, 7.9],
+      "to": [11, 10, 9.5],
+      "faces": {
+        "north": {"uv": [9.9726, 5.91781, 12.71233, 8.32877], "texture": "#0"},
+        "east": {"uv": [15.0137, 3.17808, 15.79452, 8.35616], "texture": "#0"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "west": {"uv": [0.21918, 3.17808, 1.43836, 8.24658], "texture": "#0"},
+        "up": {"uv": [2.19178, 6.68493, 9.65753, 8.52055], "rotation": 270, "texture": "#0"},
+        "down": {"uv": [3.39726, 0.43836, 8.34247, 2.16438], "rotation": 90, "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0, 3, 1],
+      "scale": [0.55, 0.55, 0.55]
+    },
+    "firstperson_righthand": {
+      "translation": [0, 4, 0]
+    },
+    "firstperson_lefthand": {
+      "translation": [0, 4.5, 0]
+    },
+    "ground": {
+      "translation": [0, 4, 0]
+    },
+    "fixed": {
+      "rotation": [180, 0.75, 180]
+    }
   }
 }

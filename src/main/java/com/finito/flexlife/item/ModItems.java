@@ -49,10 +49,6 @@ public class ModItems {
     public static final RegistryObject<Item> KULQABI = ITEMS.register("kulqabi",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
-    // NEW ITEMS
-    // NEW ITEMS
-    // NEW ITEMS
-
 
     public static final RegistryObject<Item> BAKI = ITEMS.register("baki",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
@@ -85,10 +81,44 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.BASDIRMA)));
 
     public static final RegistryObject<Item> JAGUAR = ITEMS.register("jaguar",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.JAGUAR)));
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.JAGUAR)));
 
     public static final RegistryObject<Item> GOVODKA = ITEMS.register("govodka",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.GOVODKA)));
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.GOVODKA)));
+
+    public static final RegistryObject<Item> FLOUR = ITEMS.register("flour",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> PITA = ITEMS.register("pita",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    // New Items
+    // New Items
+    // New Items
+
+    public static final RegistryObject<Item> CAPSULED_LD = ITEMS.register("capsuled_ld",
+            () -> new Item(new Item.Properties().stacksTo(20).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> CAPSULED_SOBRANIE = ITEMS.register("capsuled_sobranie",
+            () -> new Item(new Item.Properties().stacksTo(20).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> CAPSULED_WINSTON = ITEMS.register("capsuled_winston",
+            () -> new Item(new Item.Properties().stacksTo(20).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> SOBRANIE_PACK_CAPSULED = ITEMS.register("capsuled_sobranie_pack",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> KETCHUP = ITEMS.register("ketchup",
+            () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+
+
+
+
+
+
+
+
 
 
 
