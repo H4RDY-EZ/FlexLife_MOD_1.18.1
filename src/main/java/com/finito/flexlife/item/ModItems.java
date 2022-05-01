@@ -1,6 +1,8 @@
 package com.finito.flexlife.item;
 
+import com.finito.flexlife.block.ModBlocks;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -125,6 +127,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> A_PART_OF_PACK = ITEMS.register("part_of_pack",
         () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> TOBACCO_SEEDS = ITEMS.register("tobacco_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.TOBACCO_PLANT.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_FOODS)));
+
+    public static final RegistryObject<Item> TEA_SEEDS = ITEMS.register("tea_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.TEA_PLANT.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_FOODS)));
 
 
 

@@ -1,12 +1,14 @@
 package com.finito.flexlife.block;
 
 import com.finito.flexlife.FlexLife;
+import com.finito.flexlife.block.custom.TobaccoLeaves;
 import com.finito.flexlife.item.ModCreativeModeTab;
 import com.finito.flexlife.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,6 +37,10 @@ public class ModBlocks {
         registerBlockItem(name, toReturn, tab);
         return toReturn;
     }
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block)
+    {
+        return BLOCKS.register(name, block);
+    }
 
     // ITEMS BELOW
     // ITEMS BELOW
@@ -51,6 +57,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> LD_BLOCK = registerBlock("ld_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.FLEX_TAB_BLOCKS);
+
+    public static final RegistryObject<Block> TOBACCO_PLANT = registerBlockWithoutBlockItem("tobacco_plant",
+            () -> new TobaccoLeaves(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+
+    public static final RegistryObject<Block> TEA_PLANT = registerBlockWithoutBlockItem("tea_plant",
+            () -> new TobaccoLeaves(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
 
     public static void register(IEventBus eventBus)

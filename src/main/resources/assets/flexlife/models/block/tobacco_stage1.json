@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "flexlife:block/tobacco_stage1"
+  }
+}
