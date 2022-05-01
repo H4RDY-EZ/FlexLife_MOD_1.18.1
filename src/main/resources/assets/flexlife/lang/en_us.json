@@ -1,17 +1,32 @@
 {
   "item.flexlife.sobranie": "Sobranie",
+  "item.flexlife.winston": "Winston XS",
+  "item.flexlife.ld": "LD",
+  "item.flexlife.prima": "Prima",
+  "item.flexlife.marlboro": "Marlboro",
+  "item.flexlife.baki": "Baki",
+
+
+  "item.flexlife.part_of_pack": "Part of Pack",
+  "item.flexlife.pack": "Empty Pack",
   "item.flexlife.a_pack_of_sobranie": "A pack of Sobranie",
+  "item.flexlfie.ld_pack": "A Pack of LD",
+  "item.flexlife.winston_pack": "A Pack of Winston",
+
+
+  "item.flexlife.capsuled_sobranie":"Sobranie (Capsuled)",
+  "item.flexlife.capsuled_winston": "Winston (Capsuled)",
+  "item.flexlife.capsuled_ld": "LD (Capsuled)",
+  "item.flexlife.capsuled_sobranie_pack": "A Pack of Sobranie (Capsuled)",
+
+
+
   "item.flexlife.tobacco": "Tobacco",
   "item.flexlife.lighter": "Lighter",
   "item.flexlife.papyrus": "Papyrus",
-  "item.flexlife.winston": "Winston XS",
   "item.flexlife.capsule": "Capsule",
-  "item.flexlife.ld": "LD",
-  "item.flexlife.marlboro": "Marlboro",
-  "item.flexlife.prima": "Prima",
   "item.flexlife.gas_spray": "Gas Spray",
   "item.flexlife.kulqabi": "Kul Qabi",
-  "item.flexlife.baki": "Baki",
   "item.flexlife.redbizon": "Red Bizon",
   "item.flexlife.bluebizon": "Blue Bizon",
   "item.flexlife.twoazndoner": "AZii Doner",
@@ -25,10 +40,8 @@
   "item.flexlife.govodka": "Go-Vodka",
   "item.flexlife.flour": "Flour",
   "item.flexlife.pita": "Pita",
-  "item.flexlife.capsuled_ld": "LD (Capsuled)",
-  "item.flexlife.capsuled_sobranie":"Sobranie (Capsuled)",
-  "item.flexlife.capsuled_winston": "Winston (Capsuled)",
-  "item.flexlife.capsuled_sobranie_pack": "A Pack of Sobranie (Capsuled)",
+  "item.flexlife.ketchup": "Ketchup",
+
 
 
   "block.flexlife.sobranie_block": "Block of Sobranie",

@@ -1,23 +1,26 @@
 package com.finito.flexlife.item;
 
-import com.finito.flexlife.FlexLife;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import static com.finito.flexlife.FlexLife.MOD_ID;
+
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, FlexLife.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
+
+    public static void register(IEventBus eventbus){
+        ITEMS.register(eventbus);
+    }
 
     public static final RegistryObject<Item> SOBRANIE = ITEMS.register("sobranie",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(20)));
 
     public static final RegistryObject<Item> SOBRANIE_PACK = ITEMS.register("a_pack_of_sobranie",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
     public static final RegistryObject<Item> TOBACCO = ITEMS.register("tobacco",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
@@ -92,10 +95,6 @@ public class ModItems {
     public static final RegistryObject<Item> PITA = ITEMS.register("pita",
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
-    // New Items
-    // New Items
-    // New Items
-
     public static final RegistryObject<Item> CAPSULED_LD = ITEMS.register("capsuled_ld",
             () -> new Item(new Item.Properties().stacksTo(20).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
@@ -111,20 +110,22 @@ public class ModItems {
     public static final RegistryObject<Item> KETCHUP = ITEMS.register("ketchup",
             () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
+    // New Items
+    // New Items
+    // New Items
+
+    public static final RegistryObject<Item> PACK = ITEMS.register("pack",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> LD_PACK = ITEMS.register("ld_pack",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> WINSTON_PACK = ITEMS.register("winston_pack",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> A_PART_OF_PACK = ITEMS.register("part_of_pack",
+        () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
 
 
-
-
-
-
-
-
-
-
-
-
-    public static void register(IEventBus eventBus){
-        ITEMS.register(eventBus);
-    }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "flexlife:part_of_pack"
+    }
+  },
+  "result": {
+    "item": "flexlife:pack",
+    "count": 2
+  }
+}
