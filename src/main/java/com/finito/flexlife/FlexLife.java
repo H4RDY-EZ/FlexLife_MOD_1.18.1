@@ -35,6 +35,7 @@ public class FlexLife {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
+        eventBus.addListener(this::clientSetup);
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
 
@@ -48,7 +49,7 @@ public class FlexLife {
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
-        LOGGER.info("Заебал просыпайся");
+        LOGGER.info("TEST TEST TEST");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 }
