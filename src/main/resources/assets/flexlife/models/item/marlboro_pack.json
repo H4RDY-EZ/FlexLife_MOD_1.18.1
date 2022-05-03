@@ -1,19 +1,19 @@
 {
   "textures": {
-    "0": "flexlife:item/winston_pack",
-    "particle": "flexlife:item/winston_pack"
+    "0": "flexlife:item/marlboro_pack",
+    "particle": "flexlife:item/marlboro_pack"
   },
   "elements": [
     {
       "from": [5, 0, 7.9],
       "to": [11, 10, 9.5],
       "faces": {
-        "north": {"uv": [0.32432, 0, 16, 15.78378], "texture": "#0"},
-        "east": {"uv": [14.08097, 1.74308, 15.78378, 3.44094], "texture": "#0"},
-        "south": {"uv": [8.16903, 6.25204, 12.76796, 8.28627], "texture": "#0"},
-        "west": {"uv": [16, 0.56122, 14.09341, 3.20096], "texture": "#0"},
-        "up": {"uv": [1.51351, 2.12078, 15.6649, 6.21928], "rotation": 180, "texture": "#0"},
-        "down": {"uv": [1.68317, 6.82172, 4.65614, 8.31361], "texture": "#0"}
+        "north": {"uv": [0, 0.15238, 16, 15.54286], "texture": "#0"},
+        "east": {"uv": [0, 2.81905, 4.72381, 7.71429], "texture": "#0"},
+        "south": {"uv": [12.0381, 2.4381, 15.52381, 4.81905], "texture": "#0"},
+        "west": {"uv": [4.8, 2.89524, 0.15238, 7.5619], "texture": "#0"},
+        "up": {"uv": [10.38095, 2.97143, 15.08571, 4.64762], "texture": "#0"},
+        "down": {"uv": [9.52381, 9.21905, 15.52381, 10.81905], "texture": "#0"}
       }
     }
   ],

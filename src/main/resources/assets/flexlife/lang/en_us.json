@@ -12,6 +12,8 @@
   "item.flexlife.a_pack_of_sobranie": "A pack of Sobranie",
   "item.flexlfie.ld_pack": "A Pack of LD",
   "item.flexlife.winston_pack": "A Pack of Winston",
+  "item.flexlife.marlboro_pack": "A Pack of Marlboro",
+  "item.flexlife.prima_pack": "A Pack of Prima",
 
 
   "item.flexlife.capsuled_sobranie":"Sobranie (Capsuled)",
@@ -43,6 +45,9 @@
   "item.flexlife.ketchup": "Ketchup",
 
   "item.flexlife.tobacco_seeds": "Tobacco Seed",
+  "item.flexlife.tea_seeds": "Tea Seed",
+  "item.flexlife.tea_leaves": "Tea Leaves",
+  "item.flexlife.a_pack_of_winston_not_enough_cigarettes": "Not enough cigarettes",
 
 
 

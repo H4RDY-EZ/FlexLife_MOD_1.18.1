@@ -17,7 +17,7 @@ public class TeaLeaves extends CropBlock {
     @Override
     public int getMaxAge()
     {
-        return 5;
+        return 3;
     }
 
     @Override

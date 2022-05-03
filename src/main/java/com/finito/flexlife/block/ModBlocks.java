@@ -1,6 +1,7 @@
 package com.finito.flexlife.block;
 
 import com.finito.flexlife.FlexLife;
+import com.finito.flexlife.block.custom.TeaLeaves;
 import com.finito.flexlife.block.custom.TobaccoLeaves;
 import com.finito.flexlife.item.ModCreativeModeTab;
 import com.finito.flexlife.item.ModItems;
@@ -62,7 +63,7 @@ public class ModBlocks {
             () -> new TobaccoLeaves(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
     public static final RegistryObject<Block> TEA_PLANT = registerBlockWithoutBlockItem("tea_plant",
-            () -> new TobaccoLeaves(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+            () -> new TeaLeaves(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
 
     public static void register(IEventBus eventBus)

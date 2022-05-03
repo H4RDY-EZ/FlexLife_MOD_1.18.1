@@ -1,19 +1,19 @@
 {
   "textures": {
-    "0": "flexlife:item/winston_pack",
-    "particle": "flexlife:item/winston_pack"
+    "0": "flexlife:item/prima_pack",
+    "particle": "flexlife:item/prima_pack"
   },
   "elements": [
     {
       "from": [5, 0, 7.9],
       "to": [11, 10, 9.5],
       "faces": {
-        "north": {"uv": [0.32432, 0, 16, 15.78378], "texture": "#0"},
-        "east": {"uv": [14.08097, 1.74308, 15.78378, 3.44094], "texture": "#0"},
-        "south": {"uv": [8.16903, 6.25204, 12.76796, 8.28627], "texture": "#0"},
-        "west": {"uv": [16, 0.56122, 14.09341, 3.20096], "texture": "#0"},
-        "up": {"uv": [1.51351, 2.12078, 15.6649, 6.21928], "rotation": 180, "texture": "#0"},
-        "down": {"uv": [1.68317, 6.82172, 4.65614, 8.31361], "texture": "#0"}
+        "north": {"uv": [0.31873, 0.7012, 16, 16], "texture": "#0"},
+        "east": {"uv": [13.96016, 2.93227, 15.87919, 10.9004], "texture": "#0"},
+        "south": {"uv": [8.27714, 4.4142, 15.36255, 8.07005], "texture": "#0"},
+        "west": {"uv": [15.95538, 2.83149, 14.04879, 10.87664], "texture": "#0"},
+        "up": {"uv": [0, 0.93159, 14.15139, 5.03009], "rotation": 180, "texture": "#0"},
+        "down": {"uv": [1.68317, 6.6055, 7.68317, 8.2055], "texture": "#0"}
       }
     }
   ],

@@ -1,6 +1,7 @@
 package com.finito.flexlife.item;
 
 import com.finito.flexlife.block.ModBlocks;
+import com.finito.flexlife.item.custom.a_pack_of_winston_xs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -112,10 +113,6 @@ public class ModItems {
     public static final RegistryObject<Item> KETCHUP = ITEMS.register("ketchup",
             () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
-    // New Items
-    // New Items
-    // New Items
-
     public static final RegistryObject<Item> PACK = ITEMS.register("pack",
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
@@ -123,7 +120,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
     public static final RegistryObject<Item> WINSTON_PACK = ITEMS.register("winston_pack",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+            () -> new a_pack_of_winston_xs(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).durability(20)));
 
     public static final RegistryObject<Item> A_PART_OF_PACK = ITEMS.register("part_of_pack",
         () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
@@ -135,6 +132,20 @@ public class ModItems {
     public static final RegistryObject<Item> TEA_SEEDS = ITEMS.register("tea_seeds",
             () -> new ItemNameBlockItem(ModBlocks.TEA_PLANT.get(),
                     new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_FOODS)));
+
+
+    // New Items
+    // New Items
+    // New Items
+
+    public static final RegistryObject<Item> PRIMA_PACK = ITEMS.register("prima_pack",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> MARLBORO_PACK = ITEMS.register("marlboro_pack",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> TEA_LEAVES = ITEMS.register("tea_leaves",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
 
 

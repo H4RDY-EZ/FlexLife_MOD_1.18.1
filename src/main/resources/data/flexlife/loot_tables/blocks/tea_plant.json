@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
+      "rolls": 2.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -19,7 +19,7 @@
                   }
                 }
               ],
-              "name": "flexlife:tobacco"
+              "name": "flexlife:tea_leaves"
             },
             {
               "type": "minecraft:item",
