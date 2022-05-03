@@ -120,7 +120,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
     public static final RegistryObject<Item> WINSTON_PACK = ITEMS.register("winston_pack",
-            () -> new a_pack_of_winston_xs(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).durability(20)));
+            () -> new a_pack_of_winston_xs(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).durability(20).defaultDurability(20)));
 
     public static final RegistryObject<Item> A_PART_OF_PACK = ITEMS.register("part_of_pack",
         () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
