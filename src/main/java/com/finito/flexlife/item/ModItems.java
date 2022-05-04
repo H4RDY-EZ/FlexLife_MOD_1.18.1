@@ -1,7 +1,7 @@
 package com.finito.flexlife.item;
 
 import com.finito.flexlife.block.ModBlocks;
-import com.finito.flexlife.item.custom.a_pack_of_winston_xs;
+import com.finito.flexlife.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,7 +22,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(20)));
 
     public static final RegistryObject<Item> SOBRANIE_PACK = ITEMS.register("a_pack_of_sobranie",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+            () -> new a_pack_of_sobranie(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).defaultDurability(20).durability(20)));
 
     public static final RegistryObject<Item> TOBACCO = ITEMS.register("tobacco",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
@@ -117,7 +117,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
     public static final RegistryObject<Item> LD_PACK = ITEMS.register("ld_pack",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+            () -> new a_pack_of_ld(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).defaultDurability(20).durability(20)));
 
     public static final RegistryObject<Item> WINSTON_PACK = ITEMS.register("winston_pack",
             () -> new a_pack_of_winston_xs(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).durability(20).defaultDurability(20)));
@@ -133,20 +133,18 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.TEA_PLANT.get(),
                     new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_FOODS)));
 
-
-    // New Items
-    // New Items
-    // New Items
-
     public static final RegistryObject<Item> PRIMA_PACK = ITEMS.register("prima_pack",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+            () -> new a_pack_of_prima(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).defaultDurability(20).durability(20)));
 
     public static final RegistryObject<Item> MARLBORO_PACK = ITEMS.register("marlboro_pack",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+            () -> new a_pack_of_marlboro(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).durability(20).defaultDurability(20)));
 
     public static final RegistryObject<Item> TEA_LEAVES = ITEMS.register("tea_leaves",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
+    // New Items
+    // New Items
+    // New Items
 
 
 }
