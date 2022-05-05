@@ -21,8 +21,6 @@
   "item.flexlife.capsuled_ld": "LD (Capsuled)",
   "item.flexlife.capsuled_sobranie_pack": "A Pack of Sobranie (Capsuled)",
 
-
-
   "item.flexlife.tobacco": "Tobacco",
   "item.flexlife.lighter": "Lighter",
   "item.flexlife.papyrus": "Papyrus",
@@ -44,6 +42,21 @@
   "item.flexlife.pita": "Pita",
   "item.flexlife.ketchup": "Ketchup",
 
+
+
+  "item.flexlife.one_manat": "One AZN",
+  "item.flexlife.five_manat": "Five AZN",
+  "item.flexlife.ten_manat": "Ten AZN",
+  "item.flexlife.twenty_manat": "Twenty AZN",
+  "item.flexlife.fifty_manat": "Fifty AZN",
+  "item.flexlife.hundred_manat": "Hundred AZN",
+  "item.flexlife.two_hundred_manat": "Two hundred AZN",
+  "item.flexlife.raw_aurus_ore": "Raw Aurus ore",
+  "item.flexlife.raw_fieser_ore": "§kRaw Fieser ore",
+  "item.flexlife.fieser_ingot": "§kFieser Ingot",
+  "item.flexlife.aurus_ingot": "Aurus Ingot",
+
+
   "item.flexlife.tobacco_seeds": "Tobacco Seed",
   "item.flexlife.tea_seeds": "Tea Seed",
   "item.flexlife.tea_leaves": "Tea Leaves",
@@ -54,6 +67,10 @@
   "block.flexlife.sobranie_block": "Block of Sobranie",
   "block.flexlife.winston_block": "Block of Winston",
   "block.flexlife.ld_block": "Block of LD",
+  "block.flexlife.aurus_ore": "Aurus ore",
+  "block.flexlife.deepslate_aurus_ore": "Deepslate Aurus ore",
+  "block.flexlife.deepslate_fieser_ore": "Deepslate &kFieser ore",
+  "block.flexlife.fieser_ore": "§kFieser ore",
 
   "itemGroup.flextabitems": "FlexLife Items",
   "itemGroup.flextabblocks": "FlexLife Blocks",

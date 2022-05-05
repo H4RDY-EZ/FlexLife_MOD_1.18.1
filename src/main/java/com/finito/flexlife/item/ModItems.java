@@ -2,8 +2,7 @@ package com.finito.flexlife.item;
 
 import com.finito.flexlife.block.ModBlocks;
 import com.finito.flexlife.item.custom.*;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -145,6 +144,82 @@ public class ModItems {
     // New Items
     // New Items
     // New Items
+
+    public static final RegistryObject<Item> ONEMANAT = ITEMS.register("one_manat",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> FIVEMANAT = ITEMS.register("five_manat",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> TENMANAT = ITEMS.register("ten_manat",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> TWENTYMANAT = ITEMS.register("twenty_manat",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> FIFTYMANAT = ITEMS.register("fifty_manat",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> HUNDREDMANAT = ITEMS.register("hundred_manat",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> TWOHUNDREDMANAT = ITEMS.register("two_hundred_manat",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> RAW_AURUS_ORE = ITEMS.register("raw_aurus_ore",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> RAW_FIESER_ORE = ITEMS.register("raw_fieser_ore",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> FIESER_INGOT = ITEMS.register("fieser_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> AURUS_INGOT = ITEMS.register("aurus_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> EMPOWERED_AURUS_INGOT = ITEMS.register("empowered_aurus_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> FURIOUS_AURUS_INGOT = ITEMS.register("furious_aurus_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> AURUS_PICKAXE = ITEMS.register("aurus_pickaxe_stageone",
+            () -> new PickaxeItem(ModTiers.AURUS_STAGEONE, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> EMPOWERED_AURUS_PICKAXE = ITEMS.register("aurus_pickaxe_stagetwo",
+            () -> new PickaxeItem(ModTiers.AURUS_STAGETWO, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+
+    public static final RegistryObject<Item> FURIOUS_AURUS_PICKAXE = ITEMS.register("aurus_pickaxe_laststage",
+            () -> new PickaxeItem(ModTiers.AURUS_LASTSTAGE, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> AURUS_SHOVEL = ITEMS.register("aurus_shovel_stageone",
+            () -> new ShovelItem(ModTiers.AURUS_STAGEONE, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> EMPOWERED_AURUS_SHOVEL = ITEMS.register("aurus_shovel_stagetwo",
+            () -> new ShovelItem(ModTiers.AURUS_STAGETWO, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> FURIOUS_AURUS_SHOVEL = ITEMS.register("aurus_shovel_laststage",
+            () -> new ShovelItem(ModTiers.AURUS_LASTSTAGE, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> AURUS_HOE = ITEMS.register("aurus_hoe_stageone",
+            () -> new HoeItem(ModTiers.AURUS_STAGEONE, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> EMPOWERED_AURUS_HOE = ITEMS.register("aurus_hoe_stagetwo",
+            () -> new HoeItem(ModTiers.AURUS_STAGETWO, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    public static final RegistryObject<Item> FURIOUS_AURUS_HOE = ITEMS.register("aurus_hoe_laststage",
+            () -> new HoeItem(ModTiers.AURUS_LASTSTAGE, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
 
 }

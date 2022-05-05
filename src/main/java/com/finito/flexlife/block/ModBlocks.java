@@ -43,9 +43,6 @@ public class ModBlocks {
         return BLOCKS.register(name, block);
     }
 
-    // ITEMS BELOW
-    // ITEMS BELOW
-    // ITEMS BELOW
 
     public static final RegistryObject<Block> SOBRANIE_BLOCK = registerBlock("sobranie_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
@@ -64,6 +61,26 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TEA_PLANT = registerBlockWithoutBlockItem("tea_plant",
             () -> new TeaLeaves(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+
+
+    //NEW ITEMS BELOW
+    //NEW ITEMS BELOW
+    //NEW ITEMS BELOW
+
+    public static final RegistryObject<Block> AURUS_ORE = registerBlock("aurus_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.FLEX_TAB_BLOCKS);
+    public static final RegistryObject<Block> DEEPSLATE_AURUS_ORE = registerBlock("deepslate_aurus_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.FLEX_TAB_BLOCKS);
+    public static final RegistryObject<Block> FIESER_ORE = registerBlock("fieser_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.FLEX_TAB_BLOCKS);
+
+    public static final RegistryObject<Block> DEEPSLATE_FIESER_ORE = registerBlock("deepslate_fieser_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.FLEX_TAB_BLOCKS);
+
 
 
     public static void register(IEventBus eventBus)
