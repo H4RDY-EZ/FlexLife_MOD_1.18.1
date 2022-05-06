@@ -1,10 +1,7 @@
 # FlexLife_MOD_1.18.1
 
-This is the first mod created by me. I was encouraged by my friends to try to add the cigarettes we love in Minecraft.
-I still learn Java, so the updates of mod will be not as fast as I desire.
+FlexLife is an global RPG-based mod, it contains a lot of changes and additions,
+we will look further as the time goes. As it is our first mod/project - I guarantee you tons of bugs
+and a long period of development.
 
-This mod adds: Cigarettes(Sobranie, Winston XS, LD and so on), blocks of cigarettes.
-What will you see in future: Drinks, implementation of "need of smoking", system of being addicted to nicotine and so on.
-Follow for more!
-
-Authours: FINITO, r4sl3r, SKULL, Pancakeous
+Authors: FINITO, r4sl3r, SKULL, Pancakeous
