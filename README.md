@@ -7,4 +7,4 @@ This mod adds: Cigarettes(Sobranie, Winston XS, LD and so on), blocks of cigaret
 What will you see in future: Drinks, implementation of "need of smoking", system of being addicted to nicotine and so on.
 Follow for more!
 
-Authours: FINITO
+Authours: FINITO, r4sl3r, SKULL, Pancakeous
