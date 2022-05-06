@@ -148,23 +148,6 @@ public class ModItems {
     public static final RegistryObject<Item> ONEMANAT = ITEMS.register("one_manat",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
 
-    public static final RegistryObject<Item> FIVEMANAT = ITEMS.register("five_manat",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
-
-    public static final RegistryObject<Item> TENMANAT = ITEMS.register("ten_manat",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
-
-    public static final RegistryObject<Item> TWENTYMANAT = ITEMS.register("twenty_manat",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
-
-    public static final RegistryObject<Item> FIFTYMANAT = ITEMS.register("fifty_manat",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
-
-    public static final RegistryObject<Item> HUNDREDMANAT = ITEMS.register("hundred_manat",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
-
-    public static final RegistryObject<Item> TWOHUNDREDMANAT = ITEMS.register("two_hundred_manat",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
 
     public static final RegistryObject<Item> RAW_AURUS_ORE = ITEMS.register("raw_aurus_ore",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));

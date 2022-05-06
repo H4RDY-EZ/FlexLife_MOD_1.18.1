@@ -32,7 +32,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
             2.0F, 0.9F, () -> {
         return Ingredient.of(ModItems.EMPOWERED_AURUS_INGOT.get());
     }),
-    FURIOUS_AURUS("furious_aurus", 36, new int[]{4, 7, 8, 4}, 20, SoundEvents.ARMOR_EQUIP_NETHERITE,
+    FURIOUS_AURUS("furious_aurus", 36, new int[]{4, 7, 8, 4}, 20, SoundEvents.ARMOR_EQUIP_DIAMOND,
             2.0F, 1.0F, () -> {
         return Ingredient.of(ModItems.FURIOUS_AURUS_INGOT.get());
     }),
