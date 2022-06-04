@@ -201,9 +201,6 @@ public class ModItems {
             () -> new HoeItem(ModTiers.AURUS_LASTSTAGE, 1, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
-    // New Items
-    // New Items
-    // New Items
 
     public static final RegistryObject<Item> COMMON_SOUL = ITEMS.register("common_soul",
             () -> new common_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
@@ -223,6 +220,30 @@ public class ModItems {
     public static final RegistryObject<Item> CHROMATIC_SOUL = ITEMS.register("chromatic_soul",
             () -> new chromatic_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
 
+    // New Items
+    // New Items
+    // New Items
 
 
+
+    public static final RegistryObject<Item> CRUSHED_BEEF = ITEMS.register("crushed_beef",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.CRUSHED_BEEF)));
+
+    public static final RegistryObject<Item> CRUSHED_PORK = ITEMS.register("crushed_pork",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.CRUSHED_PORK)));
+
+    public static final RegistryObject<Item> CRUSHED_CHICKEN = ITEMS.register("crushed_chicken",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.CRUSHED_CHICKED)));
+
+    public static final RegistryObject<Item> SALAD = ITEMS.register("salad",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.SALAD)));
+
+    public static final RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.CUCUMBER)));
+
+    public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.TOMATO)));
+
+    public static final RegistryObject<Item> TURK_BREAD = ITEMS.register("turk_bread",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.TURK_BREAD)));
 }
