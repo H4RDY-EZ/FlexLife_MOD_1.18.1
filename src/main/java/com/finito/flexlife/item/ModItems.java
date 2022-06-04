@@ -141,9 +141,6 @@ public class ModItems {
     public static final RegistryObject<Item> TEA_LEAVES = ITEMS.register("tea_leaves",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
 
-    // New Items
-    // New Items
-    // New Items
 
     public static final RegistryObject<Item> ONEMANAT = ITEMS.register("one_manat",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
@@ -203,6 +200,29 @@ public class ModItems {
     public static final RegistryObject<Item> FURIOUS_AURUS_HOE = ITEMS.register("aurus_hoe_laststage",
             () -> new HoeItem(ModTiers.AURUS_LASTSTAGE, 1, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS)));
+
+    // New Items
+    // New Items
+    // New Items
+
+    public static final RegistryObject<Item> COMMON_SOUL = ITEMS.register("common_soul",
+            () -> new common_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> UNCOMMON_SOUL = ITEMS.register("uncommon_soul",
+            () -> new uncommon_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> EPIC_SOUL = ITEMS.register("epic_soul",
+            () -> new epic_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> MYTHICAL_SOUL = ITEMS.register("mythical_soul",
+            () -> new mythical_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> LEGENDARY_SOUL = ITEMS.register("legendary_soul",
+            () -> new legendary_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
+    public static final RegistryObject<Item> CHROMATIC_SOUL = ITEMS.register("chromatic_soul",
+            () -> new chromatic_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
+
 
 
 }

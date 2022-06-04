@@ -67,6 +67,13 @@
   "block.flexlife.deepslate_fieser_ore": "Deepslate &kFieser ore",
   "block.flexlife.fieser_ore": "§kFieser ore",
 
+  "item.flexlife.common_soul": "Common Soul",
+  "item.flexlife.uncommon_soul": "Uncommon Soul",
+  "item.flexlife.epic_soul": "Epic Soul",
+  "item.flexlife.mythical_soul": "Mythical Soul",
+  "item.flexlife.legendary_soul": "Legendary Soul",
+  "item.flexlife.chromatic_soul": "Chromatic Soul",
+
   "itemGroup.flextabitems": "FlexLife Items",
   "itemGroup.flextabblocks": "FlexLife Blocks",
   "itemGroup.flextabfoods": "FlexLife Food"

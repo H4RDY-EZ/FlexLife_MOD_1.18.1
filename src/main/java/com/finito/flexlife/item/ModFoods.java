@@ -18,10 +18,6 @@ public class ModFoods {
     public static final FoodProperties BASDIRMA = (new FoodProperties.Builder()).nutrition(10).saturationMod(1f).build();
     public static final FoodProperties GOVODKA = (new FoodProperties.Builder()).nutrition(1).saturationMod(0f).effect(new MobEffectInstance(MobEffects.CONFUSION,300, 0),1f).build();
     public static final FoodProperties JAGUAR = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.1f).effect(new MobEffectInstance(MobEffects.CONFUSION,160, 0),1f).build();
-    // New Food
-    // New Food
-    // New Food
-
 
     public static final FoodProperties TURK_BREAD = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.4f).build();
 
@@ -30,6 +26,16 @@ public class ModFoods {
     public static final FoodProperties CUCUMBER = (new FoodProperties.Builder()).nutrition(3).saturationMod(0.1f).build();
 
     public static final FoodProperties SALAD = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build();
+
+    // New Food
+    // New Food
+    // New Food
+
+    public static final FoodProperties CRUSHED_CHICKED = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build();
+
+    public static final FoodProperties CRUSHED_BEEF = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build();
+
+    public static final FoodProperties CRUSHED_PORK = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build();
 
 
 
