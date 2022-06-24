@@ -27,9 +27,6 @@ public class ModFoods {
 
     public static final FoodProperties SALAD = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build();
 
-    // New Food
-    // New Food
-    // New Food
 
     public static final FoodProperties CRUSHED_CHICKED = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build();
 
@@ -37,6 +34,9 @@ public class ModFoods {
 
     public static final FoodProperties CRUSHED_PORK = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build();
 
+    // New Food
+    // New Food
+    // New Food LD
 
 
 

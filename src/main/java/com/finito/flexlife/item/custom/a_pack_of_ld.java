@@ -1,12 +1,15 @@
 package com.finito.flexlife.item.custom;
 
+import com.finito.flexlife.item.ModItems;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.material.Material;
 
 public class a_pack_of_ld extends Item {
 
@@ -36,6 +39,7 @@ public class a_pack_of_ld extends Item {
             stack = Player.getItemInHand(flex);
             setDamage(stack, damageNum);
 
+
             if(!HasCigarettes())
             {
                 Player.setItemInHand(flex, ItemStack.EMPTY);
@@ -43,10 +47,6 @@ public class a_pack_of_ld extends Item {
                 damageNum = 0;
             }
         }
-
-
-
-
         return super.use(Level, Player, UsedHand);
     }
 

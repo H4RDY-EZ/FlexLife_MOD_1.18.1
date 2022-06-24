@@ -220,12 +220,6 @@ public class ModItems {
     public static final RegistryObject<Item> CHROMATIC_SOUL = ITEMS.register("chromatic_soul",
             () -> new chromatic_soul(new Item.Properties().tab(ModCreativeModeTab.FLEX_TAB_ITEMS).stacksTo(64)));
 
-    // New Items
-    // New Items
-    // New Items
-
-
-
     public static final RegistryObject<Item> CRUSHED_BEEF = ITEMS.register("crushed_beef",
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.CRUSHED_BEEF)));
 
@@ -246,4 +240,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> TURK_BREAD = ITEMS.register("turk_bread",
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.TURK_BREAD)));
+
+    public static final RegistryObject<Item> FLEX_ITEM = ITEMS.register("flex_item",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.TURK_BREAD)));
+
 }
