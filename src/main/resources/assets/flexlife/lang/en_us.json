@@ -6,7 +6,6 @@
   "item.flexlife.marlboro": "Marlboro",
   "item.flexlife.baki": "Baki",
 
-
   "item.flexlife.part_of_pack": "Part of Pack",
   "item.flexlife.pack": "Empty Pack",
   "item.flexlife.a_pack_of_sobranie": "A pack of Sobranie",
@@ -71,7 +70,7 @@
   "block.flexlife.ld_block": "Block of LD",
   "block.flexlife.aurus_ore": "Aurus ore",
   "block.flexlife.deepslate_aurus_ore": "Deepslate Aurus ore",
-  "block.flexlife.deepslate_fieser_ore": "Deepslate &kFieser ore",
+  "block.flexlife.deepslate_fieser_ore": "&kDeepslate Fieser ore",
   "block.flexlife.fieser_ore": "§kFieser ore",
 
   "item.flexlife.common_soul": "Common Soul",

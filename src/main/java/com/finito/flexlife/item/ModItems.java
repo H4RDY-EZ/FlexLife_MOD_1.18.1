@@ -240,6 +240,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> TURK_BREAD = ITEMS.register("turk_bread",
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FLEX_TAB_FOODS).food(ModFoods.TURK_BREAD)));
-    
+
 
 }
